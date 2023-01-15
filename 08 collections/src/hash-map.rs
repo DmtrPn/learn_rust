@@ -52,4 +52,14 @@ fn main() {
     }
 
     println!("{:?}", map);
+
+        let mut noteMap = HashMap::new();
+    for word in note {
+        let count = map.entry(word).or_insert(0);
+        *count += 1;
+    }
+
+    for word in magazine {
+        if note.get_key_value_mut("a")
+    }
 }

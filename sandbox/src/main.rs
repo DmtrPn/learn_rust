@@ -1,4 +1,2 @@
-// use sandbox;
-
 fn main() {
 }

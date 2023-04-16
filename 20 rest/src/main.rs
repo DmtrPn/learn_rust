@@ -1,5 +1,5 @@
 use core::time::Duration;
-use sandbox::ThreadPool;
+use rest::ThreadPool;
 use std::{
     fs,
     io::{prelude::*, BufReader},
